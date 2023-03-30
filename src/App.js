@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import { useState } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import CheckboxList from './components/Checkbox/CheckboxList';
 import MyCounter from './components/counter/MyCounter';
 import Home from './components/Home/Home';
 import Loader from './components/Loader/Loader';
@@ -13,7 +14,6 @@ import Select from './components/Select/Select';
 import Shop from './components/Shop/Shop';
 import ProductsTable from './components/table/ProductsTable';
 import ThemePlay from './components/ThemePlay/ThemePlay';
-import Todo from './components/Todo/Todo';
 import { GlobalStyles } from './GlobalStyle.style';
 
 function App() {
@@ -42,7 +42,7 @@ function App() {
         <Route path="/shop" element={<Shop/>}/>
         <Route path="/paginate" element={<PaginatedItems/>}/>
         <Route path="/table" element={<ProductsTable/>}/>
-        <Route path="/todo" element={<Todo/>}/>
+        <Route path="/checkbox" element={<CheckboxList/>}/>
       </Routes>
     </div>
   );

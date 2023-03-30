@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { products } from "../../data/products";
 
 const ProductsTable = () => {
-  const [allProduct, setAllProduct] = useState([])
+  const [allProduct, setAllProduct] = useState([]);
   const allStatus = ["pending", "delivered", "cancelled"];
   const [allCheck, setAllCheck] = useState(false);
   const [someCheck, setSomeCheck] = useState(false);

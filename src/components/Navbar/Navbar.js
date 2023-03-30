@@ -67,9 +67,6 @@ function Navbar() {
                     <li className="nav-item">
                       <NavLink className="nav-link" to="/table" onClick={() => setShowNav(false)}>table</NavLink>
                     </li>
-                    <li className="nav-item">
-                      <NavLink className="nav-link" to="/todo" onClick={() => setShowNav(false)}>todo</NavLink>
-                    </li>
                   </ul>
                 </div>
               </div>
