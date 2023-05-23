@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import CountUp from 'react-countup';
 import VisibilitySensor from 'react-visibility-sensor';
 import "./Select.css";
+import { countries } from "./data";
 
 function Select() {
   const [showDropdown, setShowDropdown] = useState(false);
@@ -12,6 +13,10 @@ function Select() {
   },[])
 
   const options = ["option 1", "option 2", "option 3", "option 4", "option 5","option 6","option 7","option 8"];
+
+
+  
+
   return (
     <>
       <h1>This is Custom Select</h1>
@@ -77,6 +82,10 @@ function Select() {
           </VisibilitySensor>
         )}
       </CountUp>
+
+          <br /><br />
+
+      
 
     </>
   );
