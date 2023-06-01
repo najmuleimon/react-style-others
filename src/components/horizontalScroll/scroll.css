@@ -1,0 +1,31 @@
+.main-wrapper{
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: auto;
+}
+.scrollable-btns {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  max-width: 1000px;
+  margin: 100px auto;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+button {
+  border: 1px solid #000;
+  padding: 8px 16px;
+  font-size: 16px;
+  background: #fff;
+  cursor: pointer;
+  flex-shrink: 0;
+  border-radius: 4px;
+}
+
+button:hover {
+  color: #fff;
+  background: #000;
+}
